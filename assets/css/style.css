@@ -39,13 +39,19 @@ body{
 .container{
     background-color: var(--White) !important;
     max-width: 750px !important;
+    margin-top: 120px !important;
 }
 
 .preparation-section{
     background-color: var(--Rose-White) !important;
 }
-.preparation-h5{
+.preparation-h5,
+.preparation-section > ul > li{
     color: var(--Dark-Raspberry) !important;
+}
+
+.preparation-h5,
+ol{
     font-weight: var(--font-wght-700) !important;
 }
 
@@ -60,6 +66,12 @@ li{
     color: var(--Nutmeg) !important;
 }
 
-.wenge-brown{
+td, p{
+    font-weight: var(--font-wght-400) !important;
     color: var(--Wenge-Brown) !important;
+}
+
+ol > li > p,
+ul > li > p{
+    margin-left: 15px !important;
 }
