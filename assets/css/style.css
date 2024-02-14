@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
 *{
     margin: 0;
@@ -7,6 +6,7 @@
     box-sizing: border-box;
 }
 
+/* Global Variables */
 :root{
     /* Colors */
 
@@ -36,6 +36,7 @@ body{
     background-color: var(--Eggshell); 
 }
 
+/* Custom Style */
 .container{
     background-color: var(--White) !important;
     max-width: 750px !important;
