@@ -1,3 +1,4 @@
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
 *{
@@ -43,6 +44,7 @@ body{
     margin-top: 120px !important;
 }
 
+/* Preparation Section */
 .preparation-section{
     background-color: var(--Rose-White) !important;
 }
@@ -56,6 +58,7 @@ ol{
     font-weight: var(--font-wght-700) !important;
 }
 
+/* Custom Headings */
 .custom-header,
 .custom-h2{
     font-family: var(--font-family-Young) !important;
